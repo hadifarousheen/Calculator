@@ -1,0 +1,41 @@
+body {
+  background-color: aquamarine;
+}
+.box {
+  border: 2px solid white;
+  height: 400px;
+  width: 320px;
+  position: absolute;
+  margin: auto;
+  inset: 0;
+  padding: 5px;
+  border-radius: 16px;
+  background-color: #616268;
+  box-shadow: 4px 4px 5px;
+}
+.rows {
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+  gap: 10px;
+  margin: 10px;
+}
+.input {
+  width: 90%;
+  height: 50px;
+  margin: 10px;
+  border-radius: 6px;
+  font-size: 3rem;
+  text-align: end;
+}
+.btn {
+  border-radius: 6px;
+  font-size: 2.2rem;
+  padding: 0.2rem;
+  border: 1px solid #616268;
+  box-shadow: 1px 1px 1px;
+}
+.equals {
+  background-color: #f89734;
+ 
+}
